@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(/fonts/sf-pro-text_regular.ttf);
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "SF Pro Text";
+}
