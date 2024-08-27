@@ -1,7 +1,8 @@
 <svelte:head>
     <title>manaken0522</title>
-    <meta name="description" content="manaken0522.com" />
+    <meta name="description" content="manaken0522のサイト" />
     <meta property="og:title" content="manaken0522" />
+    <meta property="og:description" content="manaken0522のサイト" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://manaken0522.com" />
     <meta property="og:image" content="https://manaken0522.com/images/manaken0522.jpg" />
