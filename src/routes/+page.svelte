@@ -37,7 +37,7 @@
     </p>
     <div class="contacts">
         <h2>Contacts</h2>
-        <a href="mailto:contact@manaken0522.com" target="_blank"><img src="/images/email.png" alt="Email"></a>
+        <a href="mailto:manaken0522.0u767@slmail.me" target="_blank"><img src="/images/email.png" alt="Email"></a>
         <a href="https://www.youtube.com/@manaken0522" target="_blank"><img src="/images/youtube.png" alt="YouTube"></a>
         <a href="https://x.com/manaken0522" target="_blank"><img src="/images/x.png" alt="X/Twitter"></a>
         <a href="https://discord.gg/RMgmPRDbRQ" target="_blank"><img src="/images/discord.png" alt="Discord"></a>
