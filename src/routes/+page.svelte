@@ -15,19 +15,13 @@
             backdrop-filter: blur(4px);
         }
 
-        div.main {
-            color: white;
-            font-size: 24px;
-            text-shadow: black 1px 0 10px;
-        }
-
         div.contacts > a > img {
             height: 48px;
         }
     </style>
 </svelte:head>
 
-<div class="main">
+<div class="main" style="margin-top: 128px; color: white; font-size: 24px; text-shadow: black 1px 0 10px;">
     <h1>Profile</h1>
     <img style="width: 256px; border-radius: 50%;" src="/images/manaken0522.jpg" alt="icon">
     <div class="contacts">
