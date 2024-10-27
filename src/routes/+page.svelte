@@ -28,13 +28,8 @@
 </svelte:head>
 
 <div class="main">
-    <h1>Profile</h1>
+    <h1>manaken0522</h1>
     <img style="width: 256px; border-radius: 50%;" src="/images/manaken0522.jpg" alt="icon">
-    <p>
-        Name: <span style="font-weight: bold;">manaken0522</span><br>
-        Country: <span style="font-weight: bold;">Japan</span><br>
-        Birthday: <span style="font-weight: bold;">2007/05/22</span>
-    </p>
     <div class="contacts">
         <h2>Contacts</h2>
         <a href="mailto:manaken0522.0u767@slmail.me" target="_blank"><img src="/images/email.png" alt="Email"></a>
