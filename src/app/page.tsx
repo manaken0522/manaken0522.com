@@ -9,13 +9,13 @@ export const metadata: Metadata = {
         icon: '/favicon.ico'
     },
     openGraph: {
-        images: '/images/manaken0522.jpg',
+        images: 'https://manaken0522.com/images/manaken0522.jpg', //よくない
     },
     twitter: {
         card: 'summary_large_image',
         title: 'manaken0522',
         description: 'manaken0522.com',
-        images: ['/images/manaken0522.jpg'],
+        images: ['https://manaken0522.com/images/manaken0522.jpg'], //よくない
         creator: '@manaken0522',
         creatorId: '1764669515210891264'
     },
