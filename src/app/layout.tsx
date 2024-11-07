@@ -1,4 +1,4 @@
-import './global.scss';
+import './global.css';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import localFont from 'next/font/local';
 
