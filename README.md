@@ -1,25 +1,24 @@
 # manaken0522.com
 
 https://manaken0522.com  
-https://manaken0522-com.pages.dev/
+https://manaken0522-com.pages.dev  
 
-## Developing
+## Getting Started
 
-Install dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+First, run the development server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Building
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To create a production version of your app:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
