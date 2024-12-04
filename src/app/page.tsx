@@ -35,7 +35,7 @@ export default function Page() {
                     <h1 className="text-white font-bold text-5xl text-center" style={{textShadow: "#000000 0px 0 15px"}}>Profile</h1>
                     <Image className='mx-auto rounded-full my-4' src="/images/manaken0522.jpg" alt='icon' width={256} height={256} />
                     <h2 className="text-white font-bold text-4xl text-center my-4" style={{textShadow: "#000000 0px 0 15px"}}>Contacts</h2>
-                    <span className='flex justify-center m-auto px-96'>
+                    <span className='flex justify-center m-auto'>
                         <Link className='mx-2' href="mailto:manaken0522.0u767@slmail.me" target="_blank"><Image src="/images/email.png" alt="Email" width={80} height={64} /></Link>
                         <Link className='mx-2' href="https://www.youtube.com/@manaken0522" target="_blank"><Image src="/images/youtube.png" alt="YouTube" width={90} height={64} /></Link>
                         <Link className='mx-2' href="https://x.com/manaken0522" target="_blank"><Image src="/images/x.png" alt="X" width={62} height={64} /></Link>
