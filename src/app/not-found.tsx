@@ -1,4 +1,4 @@
-import { Metadata, Viewport } from "next"
+import { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: 'manaken0522.com',
@@ -17,12 +17,6 @@ export const metadata: Metadata = {
         creator: '@manaken0522',
         creatorId: '1764669515210891264'
     },
-}
-
-export const viewport: Viewport = {
-    themeColor: 'skyblue',
-    width: 'device-width',
-    initialScale: 1
 }
 
 export default function NotFound() {
