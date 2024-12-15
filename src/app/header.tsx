@@ -12,8 +12,6 @@ export default function Header() {
             </div>
             <div className="w-2/4 flex justify-evenly">
                 <Link href="/">Home</Link>
-                <Link href="/works/">Works</Link>
-                <Link href="/blog/">Blog</Link>
             </div>
             <div className="w-1/4 text-center text-white">
                 <Link href="https://github.com/manaken0522/manaken0522.com" target="_blank">Repository</Link>
