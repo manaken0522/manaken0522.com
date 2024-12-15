@@ -15,7 +15,7 @@ export default function Header() {
                 <Link href="/blog/">Blog</Link>
             </div>
             <div className="w-1/4 flex justify-end">
-                <Link href="https://github.com/manaken0522/manaken0522.com" className="text-white">Repository</Link>
+                <Link href="https://github.com/manaken0522/manaken0522.com" className="text-white" target="_blank">Repository</Link>
             </div>
         </div>
     )
