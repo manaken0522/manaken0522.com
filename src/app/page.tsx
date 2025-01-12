@@ -9,15 +9,21 @@ export const metadata: Metadata = {
         icon: '/favicon.ico'
     },
     openGraph: {
-        images: 'https://manaken0522.com/images/manaken0522.webp', //よくない
+        title: 'manaken0522',
+        description: 'manaken0522.com',
+        url: 'https://manaken0522.com',
+        siteName: 'manaken0522.com',
+        images: 'https://manaken0522.com/images/manaken0522.webp',
+        locale: 'ja_JP',
+        type: 'website'
     },
     twitter: {
         card: 'summary_large_image',
         title: 'manaken0522',
         description: 'manaken0522.com',
-        images: ['https://manaken0522.com/images/manaken0522.webp'], //よくない
         creator: '@manaken0522',
-        creatorId: '1764669515210891264'
+        creatorId: '1764669515210891264',
+        images: ['https://manaken0522.com/images/manaken0522.webp']
     },
 }
 
