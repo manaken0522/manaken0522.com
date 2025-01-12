@@ -10,7 +10,9 @@ const SF_Pro = localFont({src: './fonts/sf-pro-text_regular.woff2'});
 export const viewport: Viewport = {
     themeColor: 'skyblue',
     width: 'device-width',
-    initialScale: 1
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false
 }
 
 export default function Layout({children}: {children: React.ReactNode}) {
