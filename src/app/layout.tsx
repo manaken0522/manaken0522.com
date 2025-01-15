@@ -1,9 +1,9 @@
 import './global.css';
 import { GoogleAnalytics } from '@next/third-parties/google';
-import Header from './header';
+import Header from '@/components/layouts/header';
 import localFont from 'next/font/local';
 import { Viewport } from 'next';
-import Footer from './footer';
+import Footer from '@/components/layouts/footer';
 
 const SF_Pro = localFont({src: './fonts/sf-pro-text_regular.woff2'});
 
