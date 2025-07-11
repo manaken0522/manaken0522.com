@@ -3,13 +3,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "start": "next start"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.4.0",
     "@tailwindcss/postcss": "^4.1.11",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
@@ -27,7 +23,6 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "wrangler": "^4.24.3"
+    "typescript": "^5"
   }
 }
