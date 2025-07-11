@@ -3,7 +3,7 @@ import { SITE_NAME } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="bg-slate-800 border-t border-neutral-200">
+    <footer className="bg-white/5 border-t border-white/50">
       <Container>
         <div className="py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
@@ -15,7 +15,7 @@ export function Footer() {
             </a>
           </div>
         </div>
-        <div className="text-center">© 2025 Dolphick</div>
+        <div className="text-center p-4">© 2025 Dolphick</div>
       </Container>
     </footer>
   );

@@ -56,7 +56,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={cn(inter.className, "bg-gray-900 text-slate-400")}>
+      <body className={cn(inter.className, "bg-black/90 text-white/80")}>
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
