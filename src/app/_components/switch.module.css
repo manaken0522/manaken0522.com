@@ -1,3 +1,5 @@
+@reference "../globals.css";
+
 .switch {
   all: unset;
   position: absolute;
