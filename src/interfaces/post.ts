@@ -4,5 +4,6 @@ export type Post = {
   date: string;
   excerpt: string;
   content: string;
+  tags?: Array<string>;
   preview?: boolean;
 };

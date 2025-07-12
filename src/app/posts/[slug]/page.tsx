@@ -7,6 +7,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { PostFooter } from "@/app/_components/post-footer";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -25,6 +26,7 @@ export default async function Post(props: Params) {
         <article className="mb-32">
           <PostHeader title={post.title} date={post.date} />
           <PostBody content={content} />
+          <PostFooter tags={post.tags} />
         </article>
       </Container>
     </main>
