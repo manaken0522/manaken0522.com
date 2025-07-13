@@ -15,7 +15,7 @@ export default function Index() {
             <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
               {SITE_NAME}
             </h1>
-            <Link className="text-4xl font-bold" href={"/Posts/"}>
+            <Link className="text-4xl font-bold" href={"/posts/"}>
               Posts
             </Link>
           </section>
