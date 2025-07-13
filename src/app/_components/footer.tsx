@@ -13,6 +13,9 @@ export function Footer() {
             <a href={"/"} className="mx-3 font-bold hover:underline">
               Home
             </a>
+            <a href={"/posts/"} className="mx-3 font-bold hover:underline">
+              Posts
+            </a>
           </div>
         </div>
         <div className="text-center p-4">© 2025 Dolphick</div>
