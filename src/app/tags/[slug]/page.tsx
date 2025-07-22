@@ -5,9 +5,9 @@ import { getPostsByTag } from "@/lib/api";
 
 export default async function Tag(props: Params) {
   const params = await props.params;
-  console.log(params.slug);
+  const slug = decodeURI(params.slug);
 
-  const posts = getPostsByTag(params.slug);
+  const posts = getPostsByTag(slug);
 
   if (posts.length === 0) {
     return (
@@ -27,7 +27,7 @@ export default async function Tag(props: Params) {
       <Container>
         <Header />
         <h2 className="mb-6 text-5xl md:text-5xl font-bold tracking-tighter leading-tight">
-          {params.slug}
+          {slug} タグの記事一覧
         </h2>
         {<Posts posts={posts} />}
       </Container>
