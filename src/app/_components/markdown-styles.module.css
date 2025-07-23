@@ -18,3 +18,11 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  @apply font-bold text-blue-600 hover:underline;
+}
+
+.markdown code {
+  @apply block bg-gray-800 px-6 py-4 rounded w-full text-sm;
+}
