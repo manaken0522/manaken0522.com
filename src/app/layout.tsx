@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: SITE_NAME,
-  description: "Dolphickのサイトです",
+  description: "manaken0522のサイトです",
   openGraph: {
-    images: ["https://dolphick.com/assets/og_image.jpg"],
+    images: ["https://manaken0522.com/assets/og_image.jpg"],
   },
 };
 

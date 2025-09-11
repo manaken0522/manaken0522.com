@@ -20,7 +20,7 @@ export default function Index() {
             </Link>
           </section>
           <div>
-            <div className="text-3xl text-center m-16">Dolphickです</div>
+            <div className="text-3xl text-center m-16">manaken0522です</div>
           </div>
         </div>
         <h2 className="mb-6 text-5xl font-bold tracking-tighter leading-tight">
