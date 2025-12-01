@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Header = () => {
+export default function Header() {
 	return (
 		<div className="flex justify-evenly items-center">
 			<h2>
@@ -24,6 +24,4 @@ const Header = () => {
 			</div>
 		</div>
 	);
-};
-
-export default Header;
+}

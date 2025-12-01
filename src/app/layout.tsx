@@ -2,7 +2,6 @@ import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
-
 import "./globals.css";
 import Header from "./_components/header";
 
@@ -18,9 +17,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-}: Readonly<{
+}: {
 	children: React.ReactNode;
-}>) {
+}) {
 	return (
 		<html lang="ja">
 			<head>
@@ -67,7 +66,7 @@ export default function RootLayout({
 			</head>
 			<body className={cn(inter.className, "bg-black/90 text-white/80")}>
 				<Header />
-				<div className="min-h-screen">{children}</div>
+				<main className="min-h-screen">{children}</main>
 				<Footer />
 			</body>
 		</html>
