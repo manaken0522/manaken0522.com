@@ -1,22 +1,29 @@
-import { SITE_NAME } from "@/lib/constants";
 import Link from "next/link";
 
 const Header = () => {
-  return (
-    <div className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h2>
-        <Link
-          href="/"
-          className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8 flex items-center hover:underline"
-        >
-          {SITE_NAME}
-        </Link>
-      </h2>
-      <Link className="text-xl md:text-3xl font-bold" href={"/posts/"}>
-        Posts
-      </Link>
-    </div>
-  );
+	return (
+		<div className="flex justify-evenly items-center">
+			<h2>
+				<Link
+					href="/"
+					className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8 flex items-center hover:underline"
+				>
+					manaken0522のサイト
+				</Link>
+			</h2>
+			<div className="justify-center">
+				<Link className="text-xl md:text-3xl font-bold mx-2" href={"/"}>
+					Home
+				</Link>
+				<Link
+					className="text-xl md:text-3xl font-bold mx-2"
+					href={"/posts/"}
+				>
+					Posts
+				</Link>
+			</div>
+		</div>
+	);
 };
 
 export default Header;

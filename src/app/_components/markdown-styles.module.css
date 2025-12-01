@@ -1,28 +1,28 @@
 @reference "../globals.css";
 
 .markdown {
-  @apply text-lg leading-relaxed;
+	@apply text-lg leading-relaxed;
 }
 
 .markdown p,
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6;
+	@apply my-6;
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+	@apply text-3xl mt-12 mb-4 leading-snug;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+	@apply text-2xl mt-8 mb-4 leading-snug;
 }
 
 .markdown a {
-  @apply font-bold text-blue-600 hover:underline;
+	@apply font-bold text-blue-600 hover:underline;
 }
 
 .markdown code {
-  @apply block bg-gray-800 px-6 py-4 rounded w-full text-sm;
+	@apply block bg-gray-800 px-6 py-4 rounded w-full text-sm;
 }

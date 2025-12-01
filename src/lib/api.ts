@@ -8,42 +8,42 @@ import { visit } from "unist-util-visit";
 const postsDirectory = join(process.cwd(), "_posts");
 
 export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+	return fs.readdirSync(postsDirectory);
 }
 
 export function getPostBySlug(slug: string) {
-  const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
-  extractTextFromMarkdown(content).then((text) => {
-    data.excerpt = text.slice(0, 25) + "...";
-  });
+	const realSlug = slug.replace(/\.md$/, "");
+	const fullPath = join(postsDirectory, `${realSlug}.md`);
+	const fileContents = fs.readFileSync(fullPath, "utf8");
+	const { data, content } = matter(fileContents);
+	extractTextFromMarkdown(content).then((text) => {
+		data.excerpt = text.slice(0, 25) + "...";
+	});
 
-  return { ...data, slug: realSlug, content } as Post;
+	return { ...data, slug: realSlug, content } as Post;
 }
 
 export function getAllPosts(): Post[] {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
-  return posts;
+	const slugs = getPostSlugs();
+	const posts = slugs
+		.map((slug) => getPostBySlug(slug))
+		// sort posts by date in descending order
+		.sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+	return posts;
 }
 
 export function getPostsByTag(tag: string): Post[] {
-  const posts = getAllPosts().filter((post) => post.tags?.includes(tag));
-  return posts;
+	const posts = getAllPosts().filter((post) => post.tags?.includes(tag));
+	return posts;
 }
 
 export async function extractTextFromMarkdown(markdown: string) {
-  const tree = await remark().parse(markdown);
-  let textContent = "";
+	const tree = await remark().parse(markdown);
+	let textContent = "";
 
-  visit(tree, "text", (node) => {
-    textContent += node.value + " ";
-  });
+	visit(tree, "text", (node) => {
+		textContent += node.value + " ";
+	});
 
-  return textContent.trim();
+	return textContent.trim();
 }

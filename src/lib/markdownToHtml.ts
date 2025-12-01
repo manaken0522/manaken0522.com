@@ -11,19 +11,19 @@ import remarkRehype from "remark-rehype";
 import { unified } from "unified";
 
 export default async function markdownToHtml(markdown: string) {
-  const processor = unified()
-    .use(remarkParse)
-    .use(remarkDirective)
-    .use(remarkFrontmatter)
-    .use(remarkGfm)
-    .use(remarkMath)
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeRaw)
-    .use(rehypeFormat)
-    .use(rehypeSanitize)
-    .use(rehypeStringify);
+	const processor = unified()
+		.use(remarkParse)
+		.use(remarkDirective)
+		.use(remarkFrontmatter)
+		.use(remarkGfm)
+		.use(remarkMath)
+		.use(remarkRehype, { allowDangerousHtml: true })
+		.use(rehypeRaw)
+		.use(rehypeFormat)
+		.use(rehypeSanitize)
+		.use(rehypeStringify);
 
-  const result = await processor.process(markdown);
+	const result = await processor.process(markdown);
 
-  return result.toString();
+	return result.toString();
 }

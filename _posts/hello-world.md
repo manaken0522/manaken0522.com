@@ -5,14 +5,15 @@ tags: ["ブログ"]
 ---
 
 タイトルの通りブログを建ててみました  
-ベースは[blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter)でauthorを消してたり少しカスタムしてます。どうせ私一人しか書き込まないので。  
-ホストは[Vercel](https://vercel.com/)でアクセス分析に[GoatCounter](https://goatcounter.com/)を使っていますが、あまり見なさそうなのとVercelのダッシュボードにも似たような機能があったのでそのうち消えると思います。  
-飽きないうちは備忘録として使っていきたい。  
-  
-markdownからhtmlに変換するのにremarkを使っているので色々できる  
+ベースは[blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter)で author を消してたり少しカスタムしてます。どうせ私一人しか書き込まないので。  
+ホストは[Vercel](https://vercel.com/)でアクセス分析に[GoatCounter](https://goatcounter.com/)を使っていますが、あまり見なさそうなのと Vercel のダッシュボードにも似たような機能があったのでそのうち消えると思います。  
+飽きないうちは備忘録として使っていきたい。
+
+markdown から html に変換するのに remark を使っているので色々できる
+
 # Pluto
 
-**Pluto** (minor-planet designation: *134340 Pluto*)
+**Pluto** (minor-planet designation: _134340 Pluto_)
 is a
 [dwarf planet](https://en.wikipedia.org/wiki/Dwarf_planet)
 in the
@@ -28,23 +29,23 @@ then-undiscovered planet
 after analyzing perturbations in the orbit of
 [Uranus](https://wikipedia.org/wiki/Uranus).
 
-***
+---
 
 Just a link: www.nasa.gov.
 
-* Lists
-* [ ] todo
-* [x] done
+-   Lists
+-   [ ] todo
+-   [x] done
 
 A table:
 
-| a | b |
-| - | - |
+| a   | b   |
+| --- | --- |
 
 <details><summary>Show example</summary>
 
 ```js
-console.log('Hi pluto!')
+console.log("Hi pluto!");
 ```
 
 </details>
