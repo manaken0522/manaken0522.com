@@ -58,11 +58,6 @@ export default function RootLayout({
 					type="application/rss+xml"
 					href="/feed.xml"
 				/>
-				<script
-					data-goatcounter="https://manaken0522.goatcounter.com/count"
-					async
-					src="//gc.zgo.at/count.js"
-				></script>
 			</head>
 			<body className={cn(inter.className, "bg-black/90 text-white/80")}>
 				<Header />

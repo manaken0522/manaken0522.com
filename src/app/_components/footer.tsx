@@ -17,10 +17,7 @@ export default function Footer() {
 					</a>
 				</div>
 			</div>
-			<div className="text-center p-4">
-				アクセス分析にGoatCounterを使用しています。
-				<br />© 2025 Dolphick
-			</div>
+			<div className="text-center p-4">© 2025 Dolphick</div>
 		</footer>
 	);
 }
